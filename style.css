@@ -1,0 +1,94 @@
+* {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: -webkit-gradient(linear, left top, left bottom, from(#0c6688), to(#00abeb));
+	background: -moz-linear-gradient(270deg, #0c6688, #00abeb);
+}
+
+#bodyContainer {
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#bird {
+	background-image: url('images/bird.png');
+	height: 178px;
+	width: 180px;
+	float: left;
+}
+
+#cloud {
+	background-image: url('images/cloud.png');
+	height: 150px;
+	width: 600px;
+	float: right;
+}
+
+#cloud h1 {
+	text-align: center;
+	padding-top: 35px;
+}
+
+#inputs {
+	clear: both;
+	height: 45px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.whiteBackground {
+	background-color: #fff;
+}
+
+.roundedBox {
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	border: 1px solid #000;
+}
+
+.textBlock {
+	height: 70px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+.image {
+	float: left;
+	margin-right: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.from {
+	display: block:
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.created {
+	display: block;
+	width: 400px;
+}
+
+.text {
+	display: block;
+	width: 100%;
+}
+
+.updated {
+	background-color: #ff9;
+}
+
+#footer {
+	background-color: #52910e;
+	height: 200px;
+}

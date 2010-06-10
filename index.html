@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Local Birds</title>
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.js"> </script>
+		<script type="text/javascript" src="geolocation.js"> </script>
+		<script type="text/javascript" src="http://use.typekit.com/kfz2kru.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	</head>
+	<body>
+		<div id="bodyContainer">
+			<div id="bird"> </div>
+			<div id="cloud">
+				<h1>Local birds</h1>
+			</div>
+			<div id="inputs" class="roundedBox whiteBackground">
+				I'd like to see tweets within a range of
+				<select name="range" id="range">
+					<option value="10">10</option>
+					<option value="25">25</option>
+					<option value="50" selected="selected">50</option>
+					<option value="100">100</option>
+				</select>
+				<input type="radio" name="measurement" value="km" checked="checked" />Kilometers
+				<input type="radio" name="measurement" value="mi" />Miles
+				from here
+			</div>
+			<div id="twitterContainer">
+
+			</div>
+		</div>
+		<div id="footer">
+			
+		</div>
+	</body>
+</html>
